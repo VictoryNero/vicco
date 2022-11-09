@@ -1,0 +1,89 @@
+.hera{
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: 455vh;
+    background-color: rgb(20, 2, 27);
+}
+.film{
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 650px;
+}
+.face{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(230, 186, 186);
+    position: relative;
+    bottom: -50px;
+    border-radius: 30px;
+}
+.face img{
+    position: relative;
+    bottom: 33px;
+    border-radius: 30px;
+}
+.pro{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: arial;
+    position: relative;
+    bottom: -150px;
+    margin-bottom: 100px;
+}
+.de{
+    position: relative;
+    bottom: -100px;
+    right: 20px;
+    margin-bottom: 100px;
+}
+h3{
+    color: rgb(219, 226, 8);
+    font-size: 50px;
+}
+h5{
+    color: white;
+    font-size: 15px;
+}
+p{
+    color: white;
+    margin-bottom: 10px;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(17, 124, 62);
+}
+.btn:hover{
+    color: green;
+    background-color: white;
+}
+.bad{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.colo img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.colo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 84%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    margin: auto;
+    align-items: center;
+}

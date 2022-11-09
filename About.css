@@ -1,0 +1,83 @@
+.fefa{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.hera{
+    position: relative;
+    width: 100%;
+    height: 455vh;
+    background-color: rgb(20, 2, 27);
+}
+
+.service{
+    color: yellowgreen;
+    font-weight: bolder;
+    position: relative;
+    bottom: -200px;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 550px;
+    background-color: rgba(255, 255, 0, 0.053);
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+h3{
+    font-family: brush king;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: -20px;
+}
+p{
+    font-family: arial;
+    font-size: 20px;
+    position: relative;
+    bottom: -50px;
+    text-align: center;
+}
+.tips{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: -250px;
+}
+.head{
+    font-family: brush king;
+    color: orange;
+    text-align: center;
+    position: relative;
+    bottom: -20px;
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgba(153, 205, 50, 0.224);
+}
+.vid{
+    border-radius: 5%;
+    animation-delay: 2s;
+    transition: 2s;
+    transform: 2s;
+}
+.bod{
+    position: relative;
+    top: 50px;
+    color: white;
+    transition: all 0.7s ease-in;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.kai{
+    position: relative;
+    bottom: -200px;
+}
+.kak{
+    position: relative;
+    bottom: 0px;
+}
+.kaa{
+    position: relative;
+    bottom: -90px;
+}
