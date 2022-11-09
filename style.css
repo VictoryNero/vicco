@@ -13,8 +13,9 @@
 .hero{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     background-color: rgb(20, 2, 27);
+    overflow: none;
 }
 nav{
     display: flex;
@@ -135,21 +136,12 @@ span{
   }
 }
 .images{
-    width: 45%;
-    height: 80%;
-    position: absolute;
-    bottom: 0;
-    right: 100px;
-    flex-wrap: wrap;
+    width: 100px;
 }
 .images img{
-    height: 60%;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: bottom 1s, left 1s ;
+    width: 400px;
     flex-wrap: wrap;
+    margin-top: 200px;
 }
 .images:hover .shape{
     bottom: 40px;
@@ -158,8 +150,9 @@ span{
     left: 45%;
 }
 .fene{
+    width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: 400px;
 }
